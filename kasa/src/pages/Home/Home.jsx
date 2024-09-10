@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <Header></Header>
+      <Header/>
       <div>
         <h1>Voici la page accueil</h1>
         <h2>C'est vous, partout et ailleurs</h2>
@@ -13,7 +13,7 @@ const Home = () => {
             <a href="#">Appartements</a>
             </NavLink>
       </div>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 };

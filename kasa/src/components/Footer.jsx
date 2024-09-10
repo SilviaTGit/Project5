@@ -1,12 +1,10 @@
+import logoFooter from '../assets/images/logoFooter.png';
+
 function Footer() {
   return (
     <footer>
-   <nav>
-        <ul>
-            <li>Logo Kasa</li>
-            <li>2020 Kasa. All rights reserved</li>
-        </ul>
-   </nav>
+  <img src={logoFooter} alt="logo Kasa" />
+            <p>2020 Kasa. All rights reserved</p>
     </footer>
   );
 };
