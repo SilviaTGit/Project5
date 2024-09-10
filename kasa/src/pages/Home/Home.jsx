@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <a href="#">Appartements</a>
             </NavLink>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

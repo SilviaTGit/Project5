@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Apartments = () => {
   return (
@@ -7,6 +8,7 @@ const Apartments = () => {
         <div>
              <h1>Voici la page des appartements</h1>
     </div>
+    <Footer></Footer>
     </div>
   );
 };
