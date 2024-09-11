@@ -10,7 +10,7 @@ const Home = () => {
         <h1>Voici la page accueil</h1>
         <h2>C'est vous, partout et ailleurs</h2>
         <NavLink to="/Apartments">
-            <a href="#">Appartements</a>
+            Appartements
             </NavLink>
       </div>
       <Footer/>
