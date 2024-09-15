@@ -4,12 +4,17 @@ import Card from "../../components/Card";
 import Banner from "../../components/Banner";
 import '../../assets/styles/pages/_home.scss';
 import apartmentsads from '../../../public/apartmentsads.json'
+import homeBannerImage from '../../assets/images/ImageSource1.jpg';
 
 const Home = () => {
   return (
     <div>
       <Header/>
-      <Banner/>
+      <Banner
+      imageSrc={homeBannerImage}
+      altText="Bannière d'accueil"
+      bannerText="Chez vous, partout et ailleurs"
+      />
       <div className="cards-container">
         {apartmentsads.map((apartment) => (
           <Card 

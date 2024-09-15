@@ -1,10 +1,16 @@
 import Header from "../components/Header";
+import Banner from "../components/Banner";
 import Footer from "../components/Footer";
+import aboutBannerImage from '../assets/images/ImageSource2.jpg';
 
 const About = () => {
   return (
     <div>
         <Header/>
+        <Banner
+        imageSrc={aboutBannerImage}
+        altText="Bannière de la page À propos"
+        />
         <div className="collapse__container">
             <h2>Fiabilité</h2>
             <p>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont confirmes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>
