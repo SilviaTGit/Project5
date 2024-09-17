@@ -1,4 +1,15 @@
 @charset "UTF-8";
 
+@use './base/base';
 @use './base/variables';
+@use './base/reset';
+
+// Import pages styles
 @use "./pages/home";
+@use "./pages/about";
+@use "./pages/apartments";
+
+// Import components styles
+@use "./components/header";
+@use "./components/footer";
+@use "./components/banner";

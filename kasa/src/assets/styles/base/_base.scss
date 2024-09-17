@@ -1,0 +1,13 @@
+@use './variables';
+
+body {
+    display: flex;
+    width: 1440px;
+    padding-top: 45px;
+    flex-direction: column;
+    align-items: center;
+    font-family: variables.$font-family;
+    font-size: variables.$font-size-base;
+    //color: variables.$tertiary-color; Put Black in the Navbar(header) and primary-color in the 404 page
+    //gap: 50px; Togli?
+}
