@@ -1,4 +1,4 @@
-import "../assets/styles/components/_banner.scss";
+//import "../assets/styles/components/_banner.scss";
 import PropTypes from "prop-types";
 
 const Banner = ({ imageSrc, altText, bannerText }) => {

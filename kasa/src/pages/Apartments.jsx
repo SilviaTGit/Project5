@@ -1,5 +1,5 @@
 import { useParams, Navigate } from "react-router-dom";
-import apartmentsads from '../../public/apartmentsads.json';  // Import json files
+import apartmentsads from '../apartmentsads.json';  // Import json files
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 

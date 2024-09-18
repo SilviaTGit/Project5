@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Card from "../../components/Card";
 import Banner from "../../components/Banner";
-import apartmentsads from '../../../public/apartmentsads.json'
+import apartmentsads from '../../apartmentsads.json'
 import homeBannerImage from '../../assets/images/ImageSource1.jpg';
 
 const Home = () => {
