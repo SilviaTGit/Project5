@@ -1,4 +1,16 @@
+@use '../base/variables';
+
 footer {
-    background-color: black;
-    color: white;
+    background-color: variables.$secondary-color;
+    color: variables.$tertiary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 28px;
+    padding-block: 66px 29px;
+    padding-inline: 463px;
+    .footer__logo {
+        height: 39px;
+    }
 }

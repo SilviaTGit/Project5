@@ -1,7 +1,5 @@
 @use '../base/variables';
 
-//nav {color: $secondary-color;}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -12,15 +10,13 @@ header {
 }
 };
 
-nav ul {
+.navbar ul {
     display: flex;
     list-style: none;
-  
-    li {
+      li {
       padding-left: 57px;
-    }
-  }
-
-li a { text-decoration: none;
-color:variables.$secondary-color;
-}
+          a { text-decoration: none;
+              color:variables.$secondary-color;
+            }
+          }
+        };
