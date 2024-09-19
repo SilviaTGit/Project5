@@ -14,7 +14,8 @@ const Home = () => {
       altText="Bannière d'accueil"
       bannerText="Chez vous, partout et ailleurs"
       />
-      <div className="cards-container">
+      <main>
+        <div className="cards-container">
         {apartmentsads.map((apartment) => (
           <Card 
             key={apartment.id} 
@@ -23,7 +24,8 @@ const Home = () => {
             id={apartment.id} 
           />
         ))}
-      </div>
+        </div>
+      </main>
       <Footer/>
     </div>
   );

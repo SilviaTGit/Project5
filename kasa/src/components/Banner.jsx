@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 const Banner = ({ imageSrc, altText, bannerText }) => {
   return (
     <div className="banner">
-      <img src={imageSrc} alt={altText} className="banner-image" />
-      {bannerText && <h1 className="banner-text">{bannerText}</h1>}
+      <img src={imageSrc} alt={altText} className="banner__image" />
+      {bannerText && <h1 className="banner__text">{bannerText}</h1>}
     </div>
   );
 };

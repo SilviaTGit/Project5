@@ -14,8 +14,9 @@ const Apartments = () => {
   return (
     <div>
       <Header />
-      <div className="apartment-details">
-        <h1>{apartment.title}</h1>
+      <main>
+        <div className="apartment-details">
+          <h1>{apartment.title}</h1>
         <img src={apartment.cover} alt={apartment.title} className="apartment-image" />
         <p>{apartment.description}</p>
         <p><strong>Host:</strong> {apartment.host.name}</p>
@@ -37,7 +38,8 @@ const Apartments = () => {
             ))}
           </ul>
         </div>
-      </div>
+        </div>
+      </main>
       <Footer />
     </div>
   );

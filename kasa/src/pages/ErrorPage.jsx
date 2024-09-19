@@ -7,13 +7,13 @@ export default function ErrorPage() {
   return (
     <div>
       <Header/>
-      <div>
+      <main>
         <h1>404</h1>
-        <h2>Oups! La page que vous demandez n'existe pas. </h2>
+        <h2>Oups! La page que vous demandez n&apos;existe pas. </h2>
         <NavLink to="/">
-            Retourner sur la page d'accueil
+            Retourner sur la page d&apos;accueil
             </NavLink>
-      </div>
+      </main>
       <Footer/>
     </div>
   );

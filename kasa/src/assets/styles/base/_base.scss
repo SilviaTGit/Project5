@@ -9,3 +9,8 @@ body {
     //color: variables.$tertiary-color; Put Black in the Navbar(header) and primary-color in the 404 page
     //gap: 50px; Togli?
 }
+
+main {
+    padding-inline: 100px;
+    margin-block: 25px;
+}

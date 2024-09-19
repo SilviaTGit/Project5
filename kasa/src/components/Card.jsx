@@ -5,7 +5,9 @@ function Card({ title, cover, id }) {
   return (
     <div className="card">
       <NavLink to={`/apartments/${id}`}>
+      <div className="card-image-wrapper">
         <img src={cover} alt={title} className="card-image" />
+      </div>
         <h3 className="card-title">{title}</h3>
       </NavLink>
     </div>
