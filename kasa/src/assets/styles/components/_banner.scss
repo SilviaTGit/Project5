@@ -5,6 +5,9 @@
     //max-width: 1240px;
     height: 223px;
     margin: 0 100px 50px 100px; //Center the banner
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .banner__image {
@@ -16,8 +19,6 @@
   
   .banner__text {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
     font-size: 2rem;
     color: variables.$tertiary-color;
   }  
