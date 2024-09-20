@@ -2,6 +2,8 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import aboutBannerImage from '../assets/images/ImageSource2.jpg';
+import "../assets/styles/pages/_about.scss";
+import "../assets/styles/components/_banner.scss";
 
 const About = () => {
   return (

@@ -2,6 +2,7 @@ import { useParams, Navigate } from "react-router-dom";
 import apartmentsads from '../apartmentsads.json';  // Import json files
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import "../assets/styles/pages/_apartments.scss";
 
 const Apartments = () => {
   const { id } = useParams();  // Get URL id

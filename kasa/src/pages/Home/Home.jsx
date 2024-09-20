@@ -4,6 +4,9 @@ import Card from "../../components/Card";
 import Banner from "../../components/Banner";
 import apartmentsads from '../../apartmentsads.json'
 import homeBannerImage from '../../assets/images/ImageSource1.jpg';
+import "../../assets/styles/pages/_home.scss";
+import "../../assets/styles/components/_banner.scss";
+import "../../assets/styles/components/_card.scss";
 
 const Home = () => {
   return (

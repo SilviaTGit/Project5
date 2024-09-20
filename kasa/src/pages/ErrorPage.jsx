@@ -1,6 +1,7 @@
 import Header from "/src/components/Header";
 import Footer from "/src/components/Footer";
 import { NavLink } from "react-router-dom";
+import "../assets/styles/pages/_error.scss";
 
 export default function ErrorPage() {
 
