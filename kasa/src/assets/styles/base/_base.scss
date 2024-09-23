@@ -1,5 +1,5 @@
 @use './variables';
-//@use './reset';
+@use './reset';
 
 body {
     margin: auto;
@@ -13,4 +13,7 @@ body {
 main {
     padding-inline: 100px;
     margin-block: 25px;
+    h1, h2 {
+        color: variables.$primary-color;
+    }
 }

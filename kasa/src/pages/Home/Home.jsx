@@ -16,6 +16,7 @@ const Home = () => {
       imageSrc={homeBannerImage}
       altText="Bannière d'accueil"
       bannerText="Chez vous, partout et ailleurs"
+      overlayClass="banner__overlay--home"
       />
       <main>
         <div className="cards-container">

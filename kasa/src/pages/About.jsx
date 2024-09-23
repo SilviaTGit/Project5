@@ -12,6 +12,7 @@ const About = () => {
         <Banner
         imageSrc={aboutBannerImage}
         altText="Bannière de la page À propos"
+        overlayClass="banner__overlay--about"
         />
         <main>
           <div className="collapse__container">
