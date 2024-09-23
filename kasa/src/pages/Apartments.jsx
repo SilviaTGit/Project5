@@ -17,28 +17,41 @@ const Apartments = () => {
       <Header />
       <main>
         <div className="apartment-details">
-          <h1>{apartment.title}</h1>
         <img src={apartment.cover} alt={apartment.title} className="apartment-image" />
-        <p>{apartment.description}</p>
-        <p><strong>Host:</strong> {apartment.host.name}</p>
+        <section className="apartment-info">
+        <div className="apartment-essentials">
+        <div className="essential-info1">
+        <h1>{apartment.title}</h1>
         <p><strong>Location:</strong> {apartment.location}</p>
-        <p><strong>Rating:</strong> {apartment.rating}</p>
-        <div>
+          <div className="apartments__tags">
+            <strong>Tags:</strong>
+            <ul>
+              {apartment.tags.map((tag, index) => (
+                <li key={index}>{tag}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="essential-info2">
+          <p><strong>Host:</strong> {apartment.host.name}</p>
+          <p><strong>Rating:</strong> {apartment.rating}</p>
+        </div>
+        </div>
+        <div className="collapse">
+          <div>
+          <strong>Description:</strong>
+          <p>{apartment.description}</p>
+          </div>
+          <div>
           <strong>Equipments:</strong>
           <ul>
             {apartment.equipments.map((equipment, index) => (
               <li key={index}>{equipment}</li>
             ))}
           </ul>
+          </div>
         </div>
-        <div>
-          <strong>Tags:</strong>
-          <ul>
-            {apartment.tags.map((tag, index) => (
-              <li key={index}>{tag}</li>
-            ))}
-          </ul>
-        </div>
+        </section>
         </div>
       </main>
       <Footer />
