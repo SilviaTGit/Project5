@@ -3,7 +3,7 @@
 .apartment-essentials {
     display: flex;
     justify-content: space-between;
-    margin-block: 2rem;
+    margin-block: 2rem 1rem;
 }
 
 .essential-info1, .essential-info2 {
@@ -12,9 +12,14 @@
     gap: 1rem;
 }
 
-.collapse {
-    display: grid;
-    grid-template-columns: 40% 40%;
+.collapse__container--apartments {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    gap: 20%;
+    margin-top: 20px;
+}
+
+.description__container,
+.equipments__container {
+    width: 45%;
 }

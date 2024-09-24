@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import aboutBannerImage from '../assets/images/ImageSource2.jpg';
 import Collapse from "../components/Collapse";
 import "../assets/styles/pages/_about.scss";
-import "../assets/styles/components/_banner.scss";
 
 const About = () => {
   return (
@@ -16,7 +15,7 @@ const About = () => {
         overlayClass="banner__overlay--about"
         />
         <main>
-          <div className="collapse__container">
+          <div className="collapse__container--about">
             <Collapse title="Fiabilité">
               <p>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont confirmes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>
             </Collapse>

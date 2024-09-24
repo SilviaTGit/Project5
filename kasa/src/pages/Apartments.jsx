@@ -2,6 +2,7 @@ import { useParams, Navigate } from "react-router-dom";
 import apartmentsads from '../apartmentsads.json';  // Import json files
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Collapse from "../components/Collapse";
 import "../assets/styles/pages/_apartments.scss";
 
 const Apartments = () => {
@@ -37,20 +38,24 @@ const Apartments = () => {
           <p><strong>Rating:</strong> {apartment.rating}</p>
         </div>
         </div>
-        <div className="collapse">
-          <div>
-          <strong>Description:</strong>
-          <p>{apartment.description}</p>
+        <div className="collapse__container--apartments">
+          
+          <div className="description__container">
+          <Collapse title="Description">
+            <p>{apartment.description}</p>
+          </Collapse>
           </div>
-          <div>
-          <strong>Equipments:</strong>
-          <ul>
+          
+          <div className="equipments__container">
+          <Collapse title="Equipments">
             {apartment.equipments.map((equipment, index) => (
-              <li key={index}>{equipment}</li>
+              <p key={index}>{equipment}</p>
             ))}
-          </ul>
+          </Collapse>
           </div>
+
         </div>
+       
         </section>
         </div>
       </main>
