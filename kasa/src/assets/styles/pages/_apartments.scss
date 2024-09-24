@@ -1,22 +1,104 @@
 @use "../base/variables.scss";
 
-.apartment-essentials {
-    display: flex;
-    justify-content: space-between;
-    margin-block: 2rem 1rem;
-}
-
-.essential-info1, .essential-info2 {
+.apartment-details {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .apartment-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .apartment-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .apartment-essentials {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .essential-info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .essential-info1 h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: variables.$primary-color;
+  }
+  
+  .essential-info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+  }
+
+  .host-info {
+    display: flex;
+    align-items: center;
     gap: 1rem;
 }
+
+.host-picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+  .rating {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .star-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .apartments__tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+  }
+  
+  .apartments__tags ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .apartments__tags li {
+    background-color: variables.$primary-color;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    color: variables.$tertiary-color;
+    font-size: 0.8rem;
+  }
+
 
 .collapse__container--apartments {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .description__container,
