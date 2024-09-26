@@ -5,9 +5,7 @@ body {
     margin: auto;
     max-width: 1920px;
     font-family: variables.$font-family;
-    font-size: variables.$font-size-base;
-    //color: variables.$tertiary-color; Put Black in the Navbar(header) and primary-color in the 404 page
-    //gap: 50px; Togli?
+    font-size: variables.$font-size-md;
 }
 
 main {
