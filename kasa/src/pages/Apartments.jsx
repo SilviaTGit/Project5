@@ -3,6 +3,7 @@ import apartmentsads from '../apartmentsads.json';  // Import json files
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Collapse from "../components/Collapse";
+import Slideshow from "../components/Slideshow";
 import "../assets/styles/pages/_apartments.scss";
 import starActive from "../assets/images/star-active.png";
 import starInactive from "../assets/images/star-inactive.png";
@@ -36,7 +37,7 @@ const Apartments = () => {
       <Header />
       <main>
         <div className="apartment-details">
-        <img src={apartment.cover} alt={apartment.title} className="apartment-image" />
+        <Slideshow images={[ ...apartment.pictures]} />
         <section className="apartment-info">
         <div className="apartment-essentials">
         <div className="essential-info1">
