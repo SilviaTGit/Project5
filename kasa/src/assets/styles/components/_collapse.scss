@@ -24,22 +24,22 @@
   .arrow-icon {
     width: 20px;
     height: 20px;
-    transition: transform 0.3s ease; /* Animazione della freccia */
+    transition: transform 0.3s ease; /* Animation of the arrow */
   }
   
   .arrow-icon.rotate {
-    transform: rotate(180deg); /* Ruota di 180 gradi quando aperto */
+    transform: rotate(180deg); /* Rotate 180 degrees when open */
   }
 
   .collapse-content {
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-  transition: max-height 0.5s ease, opacity 0.3s ease; /* Animazione apertura */
+  transition: max-height 0.5s ease, opacity 0.3s ease; /* Opening animation */
 }
   
   .collapse-content.open {
     max-height: 500px;
     opacity: 1;
-    transition: max-height 0.5s ease, opacity 0.5s ease; /* Animazione */
+    transition: max-height 0.5s ease, opacity 0.5s ease; /* Animation */
   }  
