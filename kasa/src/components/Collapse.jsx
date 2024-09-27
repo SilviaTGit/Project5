@@ -7,7 +7,7 @@ const Collapse = ({ title, children }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {
-        setIsOpen(!isOpen); // Cambia lo stato di visibilità
+        setIsOpen(!isOpen); // Change the visibility status
     };
 
     return (

@@ -19,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px 10px 15px;
+    font-weight: 700;
   }
 
   .arrow-icon {
@@ -28,7 +29,7 @@
   }
   
   .arrow-icon.rotate {
-    transform: rotate(180deg); /* Rotate 180 degrees when open */
+    transform: rotate(-180deg); /* Rotate 180 degrees when open */
   }
 
   .collapse-content {

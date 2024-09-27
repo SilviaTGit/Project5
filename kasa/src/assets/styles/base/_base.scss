@@ -8,6 +8,12 @@ body {
     font-size: variables.$font-size-md;
 }
 
+@media (max-width: 768px) {
+    html {
+      font-size: 12px; /* Reduce font size on tablet */
+    }
+  }
+
 main {
     padding-inline: 100px;
     margin-block: 25px;
