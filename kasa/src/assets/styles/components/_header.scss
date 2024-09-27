@@ -9,6 +9,13 @@ header {
     .header__logo {
     height: 68px;
 }
+  @media (max-width: 768px) {
+    padding-inline: 20px;
+    padding-block: 20px 27px;
+    .header__logo {
+      height: 47px;
+    }
+  }
 };
 
 .navbar ul {
@@ -18,6 +25,12 @@ header {
       padding-left: 57px;
           a { text-decoration: none;
               color:variables.$secondary-color;
+            }
+
+            @media (max-width: 768px) {
+              padding-left: 26px;
+              a {text-transform: uppercase;
+              }
             }
           }
         };
