@@ -3,9 +3,13 @@
     background-color: #F6F6F6;
     border-radius: 25px;
     display: grid;
-    grid-template-columns: repeat(3, 340px);
-    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));    gap: 50px;
     justify-content: center;
     padding: 50px;
     margin-bottom: 50px;
+
+    /* Media query for desktop */
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
