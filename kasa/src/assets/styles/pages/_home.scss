@@ -12,4 +12,12 @@
     @media (min-width: 768px) {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    /* Media query for mobile */
+    @media (max-width: 768px) {
+        background-color: transparent;
+        padding: 0;
+        gap: 20px;
+        margin-bottom: 2px;
+    }
 }

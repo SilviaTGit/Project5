@@ -50,5 +50,8 @@
         padding: 10px;
         color: variables.$tertiary-color;
         z-index:2;
+        @media (max-width: 768px) {
+            font-size: 18px;
+        }
     }
 }
