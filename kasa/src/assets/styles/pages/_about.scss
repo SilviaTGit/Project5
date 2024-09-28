@@ -8,4 +8,11 @@
     .collapse-title {
         font-size: variables.$font-size-md;
     }
+
+    @media (max-width: 768px) {
+        padding-inline: 0;
+        .collapse-container {
+            margin: 20px 0;
+        }
+    }
 }
