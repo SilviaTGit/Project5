@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 import Card from "../../components/Card";
 import Banner from "../../components/Banner";
 import apartmentsads from "../../apartmentsads.json";
-import homeBannerImage from "../../assets/images/ImageSource1.jpg";
+import homeBannerImage from "../../assets/images/ImageSource1.webp";
 import "../../assets/styles/pages/_home.scss";
 
 const Home = () => {

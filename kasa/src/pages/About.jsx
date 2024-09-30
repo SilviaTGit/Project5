@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
-import aboutBannerImage from "../assets/images/ImageSource2.jpg";
+import aboutBannerImage from "../assets/images/ImageSource2.webp";
 import Collapse from "../components/Collapse";
 import "../assets/styles/pages/_about.scss";
 

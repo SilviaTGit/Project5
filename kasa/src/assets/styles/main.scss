@@ -1,17 +1,7 @@
 @charset "UTF-8";
 
 @use './base/base';
-//@use './base/variables'; // This line is commented out because it is already imported in the base file
-//@use './base/reset';
-
-// Import pages styles
-/*@use "./pages/home";
-@use "./pages/about";
-@use "./pages/apartments";
-@use "./pages/error";*/
 
 // Import components styles
 @use "./components/header";
 @use "./components/footer";
-/*@use "./components/banner";
-@use "./components/card";*/

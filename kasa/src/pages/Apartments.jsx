@@ -59,7 +59,7 @@ const Apartments = () => {
                                     <img src={apartment.host.picture} alt={apartment.host.name} className="host-picture" />
                                 </div>
                                 <div className="rating">
-                                    {renderStars(Math.round(apartment.rating))} {/* Renderizza le stelle */}
+                                    {renderStars(Math.round(apartment.rating))} {/* Render the star-icons */}
                                 </div>
                             </div>
                         </div>
