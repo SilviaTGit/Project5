@@ -22,10 +22,10 @@ const Slideshow = ({ images }) => {
             {/* Show arrows only if there is more than one image */}
             {images.length > 1 && (
                 <>
-                    <button className="left-arrow" onClick={prevSlide}>
+                    <button className="left-arrow" aria-label="Voir l'image précédente" onClick={prevSlide}>
                         &#10094;
                     </button>
-                    <button className="right-arrow" onClick={nextSlide}>
+                    <button className="right-arrow" aria-label="Voir l’image suivante" onClick={nextSlide}>
                         &#10095;
                     </button>
                 </>

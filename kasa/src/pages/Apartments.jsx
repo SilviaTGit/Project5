@@ -9,7 +9,7 @@ import starActive from "../assets/images/star-active.png";
 import starInactive from "../assets/images/star-inactive.png";
 
 const Apartments = () => {
-    const { id } = useParams(); // Get URL id
+    const { id } = useParams(); // Retrieve the 'id' parameter from the URL using React Router
     const apartment = apartmentsads.find((apt) => apt.id === id); // Find apartment by id
 
     if (!apartment) {
