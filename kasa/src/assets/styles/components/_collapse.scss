@@ -1,0 +1,58 @@
+@use "../base/variables.scss";
+
+.collapse-container p {
+        margin-block: 15px;
+        margin-inline: 20px;
+        font-size: variables.$font-size-sm;
+    }
+  
+  .collapse-title {
+    background-color: variables.$primary-color;
+    color: variables.$tertiary-color;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 15px;
+    font-weight: 700;
+  }
+
+  .arrow-icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease; /* Animation of the arrow */
+  }
+  
+  .arrow-icon.rotate {
+    transform: rotate(-180deg); /* Rotate 180 degrees when open */
+  }
+
+  .collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.3s ease; /* Opening animation */
+}
+  
+  .collapse-content.open {
+    max-height: 500px;
+    opacity: 1;
+    transition: max-height 0.5s ease, opacity 0.5s ease; /* Animation */
+  }
+
+  @media (max-width: 768px) {
+    .collapse-container {
+      .collapse-title {
+        font-size: 1.625rem;
+      }
+      p {
+        font-size: 1.5rem;
+        margin-block: 13px;
+      }
+    }
+  }

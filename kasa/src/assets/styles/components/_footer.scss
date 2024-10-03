@@ -1,0 +1,23 @@
+@use '../base/variables';
+
+footer {
+    background-color: variables.$secondary-color;
+    color: variables.$tertiary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    padding: 66px 0 29px 0;
+    .footer__logo {
+        height: 39px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 66px 0 58px 0;
+        gap: 10px;
+        p {
+            width: 100px;
+        }
+    }
+}

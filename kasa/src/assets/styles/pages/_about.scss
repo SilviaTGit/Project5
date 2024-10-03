@@ -1,0 +1,18 @@
+@use "../base/variables.scss";
+
+.collapse__container--about {
+    padding-inline: 50px;
+    .collapse-container {
+        margin: 30px 0;
+    }
+    .collapse-title {
+        font-size: variables.$font-size-md;
+    }
+
+    @media (max-width: 768px) {
+        padding-inline: 0;
+        .collapse-container {
+            margin: 20px 0;
+        }
+    }
+}
