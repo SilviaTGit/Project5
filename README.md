@@ -1,5 +1,10 @@
 # Kasa: Real Estate Listings app in French language
 
+This project involves building the front-end of a real estate rental app using React, React Router, and Vite, focusing on dynamic UI development, page navigation, and styling with Sass.
+
+https://github.com/user-attachments/assets/4e00d828-28a5-45f2-a823-6173b65e69a2
+
+
 ## Technologies Used
 
 -   **React** with **Vite**: Provides a fast and efficient development environment and build tool for modern web applications.
